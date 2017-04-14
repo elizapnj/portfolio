@@ -1,0 +1,194 @@
+
+/*Set Font*/
+@font-face { font-family: Blern; src: url('../fonts/Blern/Blern.otf'); }
+
+/*Set specific Font*/
+.my-font{
+    font-family: Blern, 'Helvetica Neue', Arial, sans-serif;
+}
+
+/*General*/
+.bg-height {
+    min-height: 100vh;
+}
+
+/* Navigation Bar (start)*/
+.navbar {
+    background-color: #000;
+    border: 0;
+    font-size: 1.2em !important;
+    letter-spacing: 4px;
+    opacity: 0.9;
+}
+
+/* Add a gray color to all navbar links */
+.navbar li a, .navbar .navbar-brand {
+    color: #596673 !important;
+}
+
+/* On hover, the links will turn white */
+.navbar-nav li a:hover {
+    color: #fff !important;
+}
+
+/* The active link */
+.navbar-nav li.active a {
+    color: #fff !important;
+    background-color: #29292c !important;
+}
+
+/* Remove border color from the collapsible button */
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+/* Navigation Bar (end)*/
+
+/* About Me (start)*/
+#home {
+    padding-top: 28em;
+}
+
+.bg-1 {
+    background: url("../images/back.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    color: #EFDCC3;
+    padding: 25em 0 0 0;
+    text-align: center;
+}
+
+.btn {
+    border: none;
+    border-radius: 300px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.btn-default {
+    color: #90CABB;
+    background-color: #efdcc3;
+}
+
+.bigger {
+    font-size: 300%;
+    font-weight: bold;
+}
+
+#detail {
+    color: #4eb198;
+}
+/* About Me (end)*/
+
+/* Likes (start)*/
+.bg-2 {
+    background-color: #666666;
+    color: #ffffff;
+    padding: 10em;
+}
+
+#aboutme {
+    margin-top: 14em;
+}
+
+.myimage {
+    width: 70em;
+    height: 45em;
+
+}
+
+.image {
+    margin: 0 0.5em 2em 0.5em;
+    width: 16em;
+    height: 12em;
+}
+
+.image:hover {
+    border: 1em solid #998580;
+    padding: 0;
+}
+/* Likes (end)*/
+
+/* Travel (start)*/
+.bg-3 {
+    background-color: #BF815D;
+    color: #ffffff;
+    padding-top: 16em;
+}
+
+#travel {
+    background-color: #666666;
+    color: #fff;
+}
+/* Travel (end)*/
+
+/* Start of Carousel */
+.carousel-inner img {
+    width: 100%;
+    height: 60em !important;
+    background-size: cover;
+}
+
+.carousel-caption h3 {
+    color: #fff !important;
+    text-shadow: 0.05em 0.05em #000;
+    font-size: 250%;
+    font-weight: bold;
+}
+
+.carousel-caption p {
+    color: #fff !important;
+    text-shadow: 0.05em 0.05em #000;
+    font-size: 200%;
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none;
+        /* Hide the carousel text when the screen is less than 600 pixels wide */
+    }
+}
+
+/* End of Carousel */
+
+/* Contact (start)*/
+#social-div {
+    background-color: #efdcc3;
+    color: #de8787;
+}
+
+.social {
+    margin: 1em 1em 1em 1em;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+#contact {
+    padding:   1em 0em 5em 0em;
+    background-color: #efdcc3;
+    color: #de8787;
+}
+
+.social:hover {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
+/*Contact (end)*/
+
+/* Paralax (start) */
+.parallax {
+    background: url("../images/marble.jpg") no-repeat center center fixed;
+    /* specific height */
+    min-height: 10em;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+/* Paralax (end) */
+

@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Eliza Panajoti</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/myStyle.css">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+</head>
+<body>
+
+<!-- NavBar -->
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid my-font">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">ELIZA PANAJOTI</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="myNavbar">
+
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#likes">LIKES</a></li>
+                <li><a href="#travel">TRAVELLING</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+
+        </div>
+
+    </div>
+</nav>
+<!-- End of NavBar -->
+
+<div class="container-fluid bg-1 text-center bg-height my-font">
+    <div class="col-md-12">
+        <h1 class="bigger">Who Am I?</h1>
+    </div>
+    <div class="col-md-12" >
+        <h2 id="detail" class="bigger"> I am an adventurer</h2>
+        <a href="#about" class="btn btn-default btn-lg page-scroll">Find Out More</a>
+    </div>
+</div>
+
+<div class="parallax"></div>
+
+<div id="about" class="bg-2 text-center bg-height my-font">
+      <div class="text-center">
+        <div class="col-md-8 col-sm-12">
+            <h2>A little more about me</h2>
+            <img src="images/me.jpg" class="myimage img-responsive" alt="Me">
+        </div>
+        <div class="col-md-4 col-sm-12" id ="aboutme">
+            <img src="images/electronics.png" alt="electronics">
+            <p>  I am a proud Electronic Engineer student</p><br/>
+            <img src="images/html.png" alt="html">
+            <p>  For the past 2 years, I have been teaching children and women how to code through my voluntary work. </p><br/>
+            <img src="images/android.png" alt="android">
+            <p >I am currently in the process of building my first app</p><br/>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+</div>
+
+<!-- Start of Paralax -->
+<div class="parallax"></div>
+
+<!-- Start of Likes -->
+<div id="likes" class="container-fluid bg-3 bg-height text-center my-font">
+    <h2>Below you can view some of the things i like</h2>
+    <br>
+    <div class="col-md-4">
+        <h3>Fashion</h3><br>
+        <a href="#fashion" data-toggle="collapse">
+            <img src="images/fashion.jpg" class="img-circle image" alt="fashion image">
+        </a>
+        <div id="fashion" class="collapse">
+            <h4>I find great pleasure expressing myself </h4>
+             <h4>through the colorful journey </h4>
+             <h4>of style and fashion</h4>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <h3>Coding</h3><br>
+        <a href="#coding" data-toggle="collapse">
+            <img src="images/coding1.jpg" class="img-circle image" alt="coding image">
+        </a>
+        <div id="coding" class="collapse">
+            <h4>Code is love, code is life</h4>
+            <h4>Just kidding!</h4>
+            <h4>Oh, well... I am not.</h4>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <h3>Cycling</h3><br>
+        <a href="#cycling" data-toggle="collapse">
+            <img src="images/cycling.jpg" class="img-circle image" alt="bike image">
+        </a>
+        <div id="cycling" class="collapse">
+            <h4>Another guilty pleasure of mine is</h4>
+            <h4>exploring new places</h4>
+            <h4>and my favourite way to do so,is by bike</h4>
+        </div>
+    </div>
+
+</div>
+<!-- End of Likes -->
+
+<div class="parallax"></div>
+<!-- End of Paralax -->
+
+<div id="travel" class="bg-height my-font">
+
+    <br><br>
+
+    <h2 class="text-center">
+        <img src="images/placeholder.png" alt="pin"/>
+        Travel recommendations
+    </h2>
+
+    <!--Start of Carousel-->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!--Indicators-->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+            <li data-target="#myCarousel" data-slide-to="5"></li>
+            <li data-target="#myCarousel" data-slide-to="6"></li>
+            <li data-target="#myCarousel" data-slide-to="7"></li>
+            <li data-target="#myCarousel" data-slide-to="8"></li>
+            <li data-target="#myCarousel" data-slide-to="9"></li>
+            <li data-target="#myCarousel" data-slide-to="10"></li>
+        </ol>
+
+        <!--Wrapper for slides-->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="images/chamonix.jpg" alt="Chamonix">
+                <div class="carousel-caption">
+                    <h3>Chamonix, France</h3>
+                    <p>The view of Mont Blanc covered in snow, is a once in a lifetime experience.</p>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="images/lisbon.jpg" alt="Lisbon">
+                <div class="carousel-caption">
+                    <h3>Lisbon, Portugal</h3>
+                    <p>If you feel brave enough (and have sneakers!), I encourage you to explore Lisbon on foot!</p>
+                    <p>You will find great detail in all external building decorations.</p>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="images/milano.jpg" alt="Milano">
+                <div class="carousel-caption">
+                    <h3>Milano, Italy</h3>
+                    <p>Milano has an elegant and glamorous atmosphere.</p>
+                    <p>Try any ice cream covered on top with hot chocolate. </p>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="images/annecy.jpg" alt="Annecy">
+                <div class="carousel-caption">
+                    <h3>Annecy, France</h3>
+                    <p>You can stroll along the canals by feeding the ducks and the swans </p>
+                    <p>or even spend a sunny day by the lake and eat your lunch at the Restaurant Ship.</p>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="images/sintra.jpg" alt="Sintra">
+                <div class="carousel-caption">
+                    <h3>Sintra, Portugal</h3>
+                    <p>It will feel as if you walked in a scene of Game of Thrones.</p>
+                    <p>Watch out for the dragons!</p>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="images/munich.jpg" alt="Munich">
+                <div class="carousel-caption">
+                    <h3>Munich, Germany</h3>
+                    <p>You can visit Munich within a day.</p>
+                    <p>A great place for beer lovers!</p>
+                 </div>
+            </div>
+
+           <div class="item">
+                <img src="images/dhermi.jpg" alt="Dhermi">
+                <div class="carousel-caption">
+                    <h3>Dhermi, Albania</h3>
+                    <p>You will have many options to enjoy the crystal clear waters, such as paragliding and jet skiing.</p>
+                    <p>A must visit</p>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="images/Bologna.jpg" alt="Bologna">
+                <div class="carousel-caption">
+                    <h3>Bologna, Italy</h3>
+                    <p>Gnocchi, gnocchi, gnocchi, gnocchi...</p>
+                    <p>Need I say more? Just go there and order it, you can thank me later.</p>
+                </div>
+            </div>
+
+           <div class="item">
+                <img src="images/jale_.jpg" alt="Jale">
+                <div class="carousel-caption">
+                    <h3>Jale, Albania</h3>
+                    <p>A natural beauty.</p>
+                    <p>Great for camping.</p>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="images/bansko.jpg" alt="Bansko">
+                <div class="carousel-caption">
+                    <h3>Bansko, Bulgaria</h3>
+                    <p>A value for money choice, for anyone who loves snow.</p>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="images/Loutraki_.jpg" alt="Loutraki">
+                <div class="carousel-caption">
+                    <h3>Loutraki, Greece</h3>
+                    <p>An hour away from Athens, lies a hidden gem, Hraion.</p>
+                    <p>A unique experience where you can have a swim next to the ancient temple of Hera.</p>
+                </div>
+            </div>
+
+        </div>
+        <!--Left and right controls-->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+<!-- End of Carousel -->
+<div class="parallax"></div>
+
+<footer id="contact" class="my-font social-div">
+    <!-- Social Icons -->
+    <br><br>
+    <div class="text-center">
+        <h2 ><strong>
+            Follow Me
+        </strong></h2>
+        <div class="text-center social-div">
+            <a target="_blank" href="https://www.instagram.com/elizapnj/">
+                <img class="social" src="images/insta.png" alt="instagram" /></a>
+            <a target="_blank" href="https://www.linkedin.com/in/elizapanajoti/">
+                <img class="social" src="images/linkedin.png" alt="LinkedIn" /></a>
+            <a target="_blank" href="https://twitter.com/elizapanajoti">
+                <img class="social" src="images/twitter.png" alt="Twitter" /></a>
+        </div>
+    </div>
+</footer>
+
+<div class="parallax"></div>
+
+<script src="js/jQuery-2.1.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
